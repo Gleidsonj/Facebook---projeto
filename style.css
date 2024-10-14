@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    background: #F0F2F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    
+}
+
+.primeiro-container {
+    width: 600px;
+    margin-top: 40px;
+}
+
+.primeiro-container h1 {
+    font-size: 48px;
+    color: #39ff08;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 70px;
+}
+
+.primeiro-container p {
+    width: 400px;
+    line-height: 30px;
+    font-size: 26px;
+    color: #1C1E21;
+}
+
+/*segundo container*/
+form {
+   background:  #FFFFFF;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #DDDFE2;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 15px;
+    background: #0866FF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #1674F4;
+}
+
+.esqueceu-senha {
+    color: rgb(8, 102, 255);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #DADDE1;
+}
+
+.nova-conta {
+    text-align: center;
+    padding: 15px;
+    background: #36A420;
+    text-decoration: none;
+    color: #fff;
+    width: 140px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#description {
+    margin: 20px;
+}
+
+#description span {
+    font-weight: 600;
+    color: rgb(28, 30, 33);
+    font-size: 16px;
+}
